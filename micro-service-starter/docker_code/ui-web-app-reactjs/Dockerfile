@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node
 LABEL maintainer="edmondmgodwin@outlook.com"
 WORKDIR /app
 RUN adduser -S uiapp
