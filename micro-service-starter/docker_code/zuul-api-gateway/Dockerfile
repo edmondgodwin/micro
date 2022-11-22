@@ -6,4 +6,4 @@ RUN mvn clean install
 
 FROM openjdk:8-jre-alpine3.9
 COPY --from=build /app/target/zuul-0.0.1-SNAPSHOT.jar /zuul.jar
-CMD [ "java", "-jar", "zuul-o.o.1-SNAPSHOT.jar" ]
+CMD [ "java", "-jar", "zuul-0.0.1-SNAPSHOT.jar" ]
