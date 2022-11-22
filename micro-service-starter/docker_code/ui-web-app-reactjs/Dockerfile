@@ -5,4 +5,5 @@ RUN adduser -S uiapp
 COPY . .
 RUN npm install
 USER uiapp
+#run command
 CMD [ "npm", "start" ]
